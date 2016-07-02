@@ -3,8 +3,8 @@ HCCR based on GoogLeNet and AlexNet
 
 ## Instruction
 
-- Training Data : [CASIA-HWDB1.0-1.2](http://www.nlpr.ia.ac.cn/databases/handwriting/Offline_database.html)
-- Testing Data : [Chinese Handwriting Recognition Competition  in ICDAR2013](http://www.nlpr.ia.ac.cn/events/CHRcompetition2013/competition/Home.html)
+- Training Data : [*CASIA-HWDB1.0-1.2*](http://www.nlpr.ia.ac.cn/databases/handwriting/Offline_database.html) and [*FlexiFont*](http://www.flexifont.com/flexifont-chn/login/) DataSets (Class = 7354)
+- Testing Data : [*Chinese Handwriting Recognition Competition in ICDAR2013*](http://www.nlpr.ia.ac.cn/events/CHRcompetition2013/competition/Home.html) (Class = 3755)
 - AlexNet input size is 108 × 108; GoogLeNet input size is 112 × 112
 
 
