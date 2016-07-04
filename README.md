@@ -1,11 +1,12 @@
 # DeepHCCR
-HCCR based on GoogLeNet and AlexNet
+Offline Handwritten Chinese Character Recognition based on GoogLeNet and AlexNet
 
 ## Instruction
 
 - Training Data : [*CASIA-HWDB1.0-1.2*](http://www.nlpr.ia.ac.cn/databases/handwriting/Offline_database.html) and [*FlexiFont*](http://www.flexifont.com/flexifont-chn/login/) DataSets (Class = 7354)
 - Testing Data : [*Chinese Handwriting Recognition Competition in ICDAR2013*](http://www.nlpr.ia.ac.cn/events/CHRcompetition2013/competition/Home.html) (Class = 3755)
 - AlexNet input size is 108 × 108; GoogLeNet input size is 112 × 112
+- HCCR-AlexNet Caffemodel can be download from [here](http://pan.baidu.com/s/1bpHT0SZ) 
 
 
 
@@ -15,11 +16,11 @@ HCCR based on GoogLeNet and AlexNet
 
 |Network|Top-1|Top-2|Top-5|Top-10|
 |:---|---|---|---|----
-|AlexNet  |0.938437|0.975073|0.990790|0.995370|![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-|GoogLeNet|0.953227|0.982650|0.993464|0.996728|![][foryou]
+|AlexNet  |0.938437|0.975073|0.990790|0.995370|
+|GoogLeNet|0.953227|0.982650|0.993464|0.996728|
 
-- 
-
+-  Test accuracy vs. Iters (GoogLeNet)  
+![GoogLeNet](util/Test_Accuracy_GoogLeNet.png "GoogLeNet Test Accuracy")
  
 ##Reference 
 - *Krizhevsky A, Sutskever I, Hinton G E. Imagenet classification with deep convolutional neural networksx[C]//Advances in neural information processing systems. 2012: 1097-1105.*
