@@ -22,7 +22,7 @@ Offline Handwritten Chinese Character Recognition based on GoogLeNet and AlexNet
 -  Test accuracy vs. Iters (GoogLeNet)  
 ![GoogLeNet](util/Test_Accuracy_GoogLeNet.png "GoogLeNet Test Accuracy")
  
-##Reference 
+## Reference 
 - *Krizhevsky A, Sutskever I, Hinton G E. Imagenet classification with deep convolutional neural networksx[C]//Advances in neural information processing systems. 2012: 1097-1105.*
 - *Szegedy C, Liu W, Jia Y, et al. Going deeper with convolutions[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2015: 1-9.*
 - *Zhong Z, Jin L, Xie Z. [High performance offline handwritten Chinese character recognition using GoogLeNet and directional feature maps[C]](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7333881)//Document Analysis and Recognition (ICDAR), 2015 13th International Conference on. IEEE, 2015: 846-850.*
